@@ -1,0 +1,29 @@
+# Fichier : requirements.txt
+
+# Core
+pandas
+numpy
+scipy
+matplotlib
+
+# PyTorch (sera installé séparément selon votre configuration CPU/GPU)
+# torch
+# torchvision
+# torchaudio
+
+# Pydantic & Transformers
+pydantic==2.7.1
+transformers==4.39.3
+accelerate==0.28.0
+
+# Vector Store & Embeddings
+sentence-transformers==2.7.0
+faiss-cpu==1.7.4
+datasets==2.18.0
+
+# LangChain
+langchain==0.1.17
+langchain-community==0.0.38
+
+# Pour l'authentification Hugging Face
+huggingface-hub
